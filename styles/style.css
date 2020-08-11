@@ -1,0 +1,128 @@
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ main {
+     margin-top: 16px;
+ }
+ 
+ nav {
+     position: relative;
+     width: 100%;
+     top: 0px;
+     left: 0px;
+     color: rgba(0, 0, 0, 0.87);
+     margin-top: 2%;
+ }
+ 
+ nav ul {
+     display: flex;
+     justify-content: flex-end;
+     padding: 0 30px;
+     list-style: none;
+ }
+ 
+ nav ul li a {
+     color: black;
+ }
+ 
+ nav ul li a:hover {
+     color: black
+ }
+ 
+ nav ul li {
+     font-size: 13px;
+     line-height: 24px;
+     padding-left: 15px;
+ }
+ 
+ #user-img {
+     display: inline-block;
+     width: 35px;
+     border-radius: 50%;
+     margin-left: 17px;
+     position: relative;
+     bottom: 5px;
+ }
+ 
+ .main {
+     margin-top: 10%;
+ }
+ 
+ .main-content {
+     margin-top: 10%;
+ }
+ 
+ .search-area {
+     text-align: center;
+     margin-top: 30px;
+ }
+ 
+ .search-area .search-bar {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: solid 1px lightgray;
+     max-width: 600px;
+     padding: 15px 15px;
+     border-radius: 30px;
+ }
+ 
+ .search-area .search-bar i {
+     color: black;
+     opacity: 0.35;
+     padding: 0 10px;
+ }
+ 
+ .search-area .search-bar #search {
+     width: 450px;
+     border: none;
+     font-size: 15px;
+     outline: 0;
+ }
+ 
+ .search-buttons .search-btn {
+     color: #5f6368;
+     background-color: #f2f2f2;
+     border: none;
+     line-height: 27px;
+     font-size: 14px;
+     height: 36px;
+     margin: 10px 10px;
+     border-radius: 2px;
+ }
+ 
+ .search-buttons .search-btn:hover {
+     border: 1px solid #c6c6c6;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     color: #222;
+ }
+ 
+ footer ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #f2f2f2;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+ }
+ 
+ footer ul li {
+     float: left;
+ }
+ 
+ footer ul li a {
+     display: block;
+     color: #5F6368;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ 
+ #right {
+     float: right;
+ }
