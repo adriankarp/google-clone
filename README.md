@@ -6,4 +6,4 @@
   <li>CSS</li>
   <li>Bootstrap</li>
 <br>
-<p>The project theme to be found <a href="https://www.theodinproject.com/courses/web-development-101/lessons/html-css" target = "_blank">here</a></p>
+<p>The project theme to be found <a href="https://www.theodinproject.com/courses/web-development-101/lessons/html-css" target="_blank">here</a></p>
